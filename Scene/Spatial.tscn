@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Models/OBJ format/blockLarge.obj" type="ArrayMesh" id=1]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 0.999913, -0.0131567, 0, 0.0131567, 0.999913, 0, 0, 0, 1, 1.05375, 0.136262, 0.0177329 )
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( -0.158511, 0.491612, -0.856266, 0.0894862, 0.870815, 0.483399, 0.983294, -2.27232e-08, -0.182026, -2.14862, 2.80787, 0 )
